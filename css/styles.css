@@ -78,7 +78,21 @@ img {
     color: #2e2f42;
     padding: 24px 0;
     display: block;
+    position: relative top;
 } 
+.active::after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+
 .header-menu-link:hover {
     color: #404bbf;
 }
@@ -116,8 +130,16 @@ img {
 /*------------------------------------header-----------------------------------*/
 .hiro {
     background: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)
+        ), 
+        url(../images/people-office\ 1.png);
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .hiro-title {
     font-weight: 700;
@@ -188,7 +210,9 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
  }
-    
+.features-icon {
+    display: flex;
+} 
 
 .features-subtitle {
    font-weight: 500;
@@ -219,12 +243,12 @@ img {
     display: flex;
    gap: 24px;
    padding: 32px 16px;
-   border: 1px solid #e7e9fc; 
+   /*border: 1px solid #e7e9fc; */
    
 }
 .team-item {
     border-radius: 0px 0px 4px 4px;
-    background-color: #e7e9fc;
+    background-color: #fff;
 
 }
 .team-subtitle-team {
@@ -268,6 +292,41 @@ img {
     text-align: center; 
     
 }
+.team-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+   
+    
+    
+}
+.team-icons-icon {
+    width: 40px;
+    height: 40px;
+   
+}
+.team-icon-soc {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+
+}
+.team-icon {
+    fill: transparent;
+    stroke: #f4f4fd;
+    
+    
+    
+}
+.team-icon :hover {
+    background-color: aquamarine;
+    color:  #f4f4fd;
+}
 /*---------------------------------------team------------------------------------*/
 .portfolio {
     padding-top: 120px;
@@ -310,7 +369,7 @@ img {
 }
 .portfolio-product-image {
     background: url("path_to_image");
-    padding-bottom: 32px;
+    
 
 }
 
@@ -320,7 +379,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
     margin-bottom: 8px;
 
 }
@@ -330,7 +388,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
+    
     
     
 }
@@ -365,5 +423,44 @@ img {
     color: #f4f4fd;
     max-width: 264px;
     
+}
+.footer-subtitle {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+display: flex;
+justify-content: center;
+
+
+}
+.footer-container 
+   
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+   
+}
+.footer-icons-icon {
+    width: 40px;
+    height: 40px;
+}
+.footer-icons-link {
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4d5ae5;;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.footer-icon {
+    fill: transparent;
+    stroke: #f4f4fd;
+      
 }
 /*----------------------------------------footer---------------------------------*/
