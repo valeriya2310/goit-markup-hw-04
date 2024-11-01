@@ -318,7 +318,7 @@ img {
 }
 .team-icon {
     fill: transparent;
-    stroke: #f4f4fd;
+    fill: #f4f4fd;
     
     
     
@@ -435,7 +435,9 @@ justify-content: center;
 
 
 }
-.footer-container 
+.footer-container {
+    display: flex;
+}
    
 .footer-icons {
     display: flex;
@@ -460,7 +462,7 @@ justify-content: center;
 
 .footer-icon {
     fill: transparent;
-    stroke: #f4f4fd;
+    fill: #f4f4fd;
       
 }
 /*----------------------------------------footer---------------------------------*/
