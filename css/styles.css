@@ -456,6 +456,7 @@ button {
     color:  #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 120px
 
 
 
@@ -497,7 +498,7 @@ margin-bottom: 16px;
 .footer-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+    
 }
 
 
