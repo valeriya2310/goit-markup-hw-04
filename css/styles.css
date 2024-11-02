@@ -456,10 +456,13 @@ button {
     color:  #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-    margin-right: 120px
+    margin-right: 120px;
 
 
 
+}
+.container-footer {
+    
 }
 .footer-logo-roman {
     color: #f4f4fd
