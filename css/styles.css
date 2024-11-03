@@ -483,9 +483,7 @@ button {
 
 
 }
-.container-footer {
-   /* margin-right: 120px;*/
-}
+
 .footer-logo-roman {
     color: #f4f4fd
 }
@@ -516,7 +514,7 @@ margin-bottom: 16px;
 
 }
 
-.footer-container {
+.container-footer {
     display: flex; 
     align-items: baseline;
     
